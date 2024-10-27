@@ -1,4 +1,4 @@
-package Bit_Manipulation;
+package bit_manipulation;
 
 public class BitwiseOperators {
     public static void main(String args[]) {
