@@ -1,4 +1,4 @@
-package src.patterns;
+package src.Patterns;
 
 /*
 n*n
