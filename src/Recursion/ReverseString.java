@@ -1,13 +1,10 @@
 package src.Recursion;
 
-import java.util.Arrays;
-
 public class ReverseString {
     public static void main(String[] args) {
         String original = "abcde";
-        System.out.println(reverseString(original, 0, original.length()));
+        System.out.println(reverseString(original, 0, original.length() - 1));
     }
-
     private static String reverseString(String str, int s, int e) {
         if( s > e) {
             return str;
@@ -26,7 +23,7 @@ public class ReverseString {
         arr[s] = arr[e];
         arr[e] = temp;
 
-        return Arrays.toString(arr);
+        return new String(arr);
     }
 
 }
